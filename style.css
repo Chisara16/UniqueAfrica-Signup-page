@@ -17,7 +17,7 @@ body {
 #left-side{
     display: flex;
     width: 50%;
-    background-image: url("Rectangle 45.png");
+    background-image: url("/images/gitRectangle 45.png");
     background-repeat: no-repeat;
     padding-left: 90px;
     background-size: cover;
