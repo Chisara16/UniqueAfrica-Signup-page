@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#signup-page{
+    display: flex;
+    height: 100vh;
+    
+} 
+
+#left-side{
+    display: flex;
+    width: 50%;
+    background-image: url("Rectangle 45.png");
+    background-repeat: no-repeat;
+    padding-left: 90px;
+    background-size: cover;
+}
+
+#logo{
+    padding: 30px 0 0 10px;
+}
+
+#right-side{
+    padding: 10px 0 0 10px;
+    margin-left: 20px;
+}
+#right-side #top{
+    padding: 30px 0 60px 30px;
+}
+
+input{
+    width:270px;
+    margin: 5px 0 10px 0;
+    padding: 8px;
+    display: block;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+label{
+    color: grey;
+    font-size: 11px;
+}
+
+
+#signup-form #fgot-pwd{
+   margin-left: 180px;
+   text-decoration: none;
+   font-size: 11px;
+   color: grey;
+}
+
+#btn{
+    background-color: rgb(42, 158, 187);
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding: 10px 0;
+    margin-top: 20px;
+}   
+
+.signup-btn{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 8px 50px 8px 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-size: small;
+    color: rgb(85, 84, 84);
+}
+
+.or{
+    text-align: center;
+    color: rgb(88, 88, 88);
+    margin: auto;
+    max-width: 60px;
+    font-size: 11px;
+    position: relative;
+}
+
+.or:before {
+    content: "";
+    display: block;
+    width: 15px;
+    height: 1px;
+    background: grey;
+    
+    left: 0;
+    top: 50%;
+    position: absolute;
+  }
+
+.or:after{
+    content: "";
+    display: block;
+    width: 15px;
+    height: 1px;
+    background: grey;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+
+.signup-btn img{
+    padding: 0 60px 0 10px;
+}
+
+.signup-btn a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-size: 11px;
+}
